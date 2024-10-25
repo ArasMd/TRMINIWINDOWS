@@ -1,0 +1,11 @@
+echo Bilgisayar Yükleniyor
+apt update
+clear
+pkg install x11-repo
+pkg install termux-x11-nightly
+pkg install pulseaudio
+apt install xfce4
+apt install chromiumpkg install wget -y
+wget https://raw.githubusercontent.com/Iamnod/termux-own-desktop/main/xfce4.sh
+chmod +x xfce4.sh
+./xfce4.sh yazın ve çalıştırın
